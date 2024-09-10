@@ -1,0 +1,18 @@
+body{
+
+    background-color:black;
+    color:antiquewhite;
+  text-align: left;
+    text-shadow: 10px;
+    text-transform: lowercase;
+  font-size: large;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    padding: 15px;
+margin: 8px;
+}
