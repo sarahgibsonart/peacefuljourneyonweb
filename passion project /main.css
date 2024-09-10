@@ -2,12 +2,31 @@ body{
     text-align: center;
     font-size: medium;
     image-orientation:max 100%;
-    font-family:Georgia, 'Times New Roman', Times, serif
-    background-color: rgb(229, 229, 228);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 247, 240);
+ 
     
 }
 
 img{ 
     max-width: 200px;
     max-height: 200px;
+    image-rendering: smooth;
+}
+
+
+div{
+    columns: 400px3;
+    -ms-grid-column-align: center;
+}
+
+p{
+    word-spacing: 8px;
+}
+
+h1{
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: hotpink;
 }
