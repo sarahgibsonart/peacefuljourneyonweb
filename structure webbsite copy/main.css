@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:sunset.jpg ;
+}
+
+img {
+    max-width: 100%;
+ }
+
+ .even-bigger-container{
+    background-color: rgb(255, 199, 229);
+    heigth:100%;
+    width:100%;
+    display:flex;
+    -ms-flex-align: center;
+
+ }
+ .main-container{
+    background-color: rgb(255, 253, 146);
+    heigth:50%;
+    width:50%;
+    padding:10px;
+align-items: center;
+    flex-direction: column;
+   
+  
+    
+ }
+
+ .top{
+    background-color: rgb(66, 158, 182);
+    height: 10%;
+    width:50%;
+    display:flex;
+ }
+
+ .top-item{
+    padding:20px;
+    -webkit-text-fill-color: rgb(255, 253, 146);
+    font-family:cursive;
+    text-align: center;
+    align-items: center;
+
+ }
+
+ .top-right-item{
+    -webkit-text-fill-color: rgb(255, 253, 146);
+    font-family: cursive;
+    
+ }
+ .bottom{
+    background-color: rgb(255, 253, 146);
+    height: 80%;
+    width:60%;
+    display:flex;
+ }
+
+
+ .right{
+    background-color: rgb(73, 147, 184);
+    height: 50%;
+    width: 50%;
+    display:flex;
+   
+ }
+
+ .left{
+    background-color: rgb(126, 181, 202);
+    height: 50%;
+    width: 60%;
+    display:flex;
+    
+ }
+
+ .left-item{
+    padding:20px;
+    -webkit-text-fill-color: rgb(255, 253, 146);
+    font-family:cursive;
+ }
+
+ .right-item{
+    padding:20px;
+    -webkit-text-fill-color: rgb(255, 253, 146);
+    font-family:cursive;
+ }

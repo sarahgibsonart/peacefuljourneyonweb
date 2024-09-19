@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+ }
+
+
+
+ .block{
+    background-color: pink;
+    border: 1px solid;
+    padding: 10px;
+ }
+
+ .inline{
+    background-color: burlywood;
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+ }
+ 
+
+ .container{
+    background-color: lightblue;
+    border:1px solid; 
+    padding:10px;
+    height:600px;
+
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap:20px;
+
+ }
+
+ .item{
+    background-color: bisque;
+    border:1px solid;
+    padding:10px;
+    width:200px;
+
+ }
