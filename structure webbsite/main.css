@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image:sunset.jpg ;
+    margin:0px;
 }
 
 img {
@@ -13,17 +13,19 @@ img {
 
  .even-bigger-container{
    background-color: rgb(255, 199, 229);
-   heigth:100%;
+   height:100vh;
    width:100%;
    display:flex;
    -ms-flex-align: center;
    -ms-flex-item-align: center;
    shape-image-threshold: inherit;
+   justify-content: center;
+   align-items: center;
 
 }
  .main-container{
     background-color: rgb(255, 253, 146);
-    heigth:600px;
+    height:600px;
     width:820px;
     padding:10px;
 align-items: center;
@@ -38,6 +40,9 @@ align-items: center;
     height: 100px;
     width:800px;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
  }
 
  .top-item{
@@ -52,11 +57,14 @@ align-items: center;
  .top-right-item{
     -webkit-text-fill-color: rgb(255, 253, 146);
     font-family: cursive;
+    position:absolute ;
+    top:0;
+    right:0;
     
  }
  .bottom{
     background-color: rgb(255, 253, 146);
-    height: 500px;
+    height: 480px;
     width:800px;
     display:flex;
  }
@@ -64,7 +72,7 @@ align-items: center;
 
  .right{
     background-color: rgb(73, 147, 184);
-    height: 500px;
+    height: 100%;
     width: 400px;
     display:flex;
    
@@ -72,7 +80,7 @@ align-items: center;
 
  .left{
     background-color: rgb(126, 181, 202);
-    height: 500px;
+    height: 100%;
     width: 400px;
     display:flex;
     
