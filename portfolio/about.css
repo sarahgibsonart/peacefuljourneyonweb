@@ -2,12 +2,18 @@
     box-sizing: border-box;
 }
 
-
 img {
     max-width: 100%;
  }
 
- h1 {
+ body {
     font-size: large;
-    color: blue;
+    color: rgb(255, 0, 179);
+    
  }
+ .main-container{
+    background-color: whitesmoke;
+    height: 100vh;
+    padding:10px;
+    display:flex;
+    flex-direction: column;}
